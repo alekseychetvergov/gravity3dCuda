@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="gravity3dCuda/gravity3dCuda.vcxproj" Id="27187d7b-899b-4805-a81c-cc6dc39cdb75" />
+</Solution>

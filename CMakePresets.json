@@ -1,0 +1,29 @@
+﻿{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "v142-vs2019-x64",
+      "displayName": "x64 Debug (v142 Toolset via VS Generator)",
+      "description": "Форсированное использование стабильного компилятора v142",
+      "generator": "Visual Studio 17 2022",
+      "architecture": "x64",
+      "toolset": "v142",
+      "binaryDir": "${sourceDir}/out/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "v143-vs2022-x64",
+      "displayName": "x64 Debug (v143 Toolset via VS Generator)",
+      "description": "Форсированное использование стабильного компилятора v143",
+      "generator": "Visual Studio 17 2022",
+      "architecture": "x64",
+      "toolset": "v143",
+      "binaryDir": "${sourceDir}/out/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    }
+  ]
+}
