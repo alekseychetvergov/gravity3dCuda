@@ -1,6 +1,14 @@
+# Папки сборки CMake и Visual Studio
+/out/
 /build/
-/cmake-build-*/
 /.vs/
-CMakeUserPresets.json
-*.user
-*.suo
+/.cmake/
+/CMakeUserPresets.json
+
+# Скомпилированные бинарники и временные файлы
+/x64/
+/*.sln
+/*.vcxproj*
+/*.suo
+/*.exe
+/*.obj
